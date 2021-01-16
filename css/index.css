@@ -110,6 +110,11 @@ header .showTime {
   text-align: center;
   font-weight: 400;
 }
+.mainbox .panel h2 a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 0.125rem;
+}
 .mainbox .panel .chart {
   height: 3rem;
 }
@@ -176,6 +181,7 @@ header .showTime {
 .mainbox .map {
   position: relative;
   height: 10.125rem;
+  overflow: hidden;
 }
 .mainbox .map .map1 {
   width: 6.475rem;
